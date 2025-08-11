@@ -2,18 +2,17 @@
 
 ## 🛠️ Conexión de Hardware
 
-1. **Conectar el EPOS4 50/8** a la placa de conexión.  
+1. **Conectar el EPOS4 50/8** a la placa de conexión, debido a los pines es fácil indentificar la forma en la que debe colcarse.  
 
-2. **Conectar el motor** que se desea configurar a la placa de conexión mediante el cable **MOLEX** al conector correspondiente.  
-   ![Conexión motor](docs/images/conexion_motor.jpg)  
+2. **Conectar el motor** que se desea configurar a la placa de conexión en el puerto **MOLEX 4** al conector correspondiente.  
 
-3. **Conectar el encoder** (interno o externo):  
-   - **Encoder interno**: Conectar al puerto indicado en la siguiente figura.  
-     ![Puerto encoder interno](docs/images/encoder_interno.jpg)  
-   - **Encoder externo incremental**: Conectar al puerto indicado para este tipo de encoder.  
-     ![Puerto encoder externo](docs/images/encoder_externo.jpg)  
+    ![Conexión motor](src/molex4.png)  
 
-4. **Conectar el cable de alimentación**:  
+3. **Conectar el encoder** (interno o externo) este permite conocer la ubicación del motor:
+    - **Encoder interno** y **Encoder externo incremental** se conectan en puertos distintos, como se muestra en la siguiente figura.
+     ![Puerto encoder](docs/images/encoder_interno.jpg)  
+
+4. **Conectar el cable de alimentación**: La placa de conexión cuenta con dos puertos de conexión.   
    - El EPOS4 cuenta con **dos puertos de alimentación**:  
      - **Entrada**: Desde la fuente de alimentación.  
      - **Salida**: Permite alimentar en serie otro EPOS4.  
