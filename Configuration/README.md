@@ -1,5 +1,6 @@
 # 🔧 Configuración
 
+---
 ## 🛠️ Conexión de Hardware
 
 1. **Conectar el EPOS4 50/8** a la placa de conexión, debido a los pines es fácil indentificar la forma en la que debe colcarse.  
@@ -30,7 +31,7 @@ Esto se resolverá en la siguiente sección de configuración del controlador.
 
 7. **Conectar el EPOS4 al PC** mediante cable **Micro-USB**.  
 
-
+---
 ## ⚙️ Configuración del Controlador
 
 1. **Instalar EPOS Studio** en el PC.  
@@ -49,6 +50,7 @@ Esto se resolverá en la siguiente sección de configuración del controlador.
   <img src="src/startup.png" alt="Startup" width="400"/>
 </p>
 
+---
 ### 🛠️ Proceso de Configuración del Motor
 Para realizar el proceso de configuración del motor se requiere tener disponible el datasheet del respectivo motor. Los datasheet de los motores usados en esta aplicación  se encuentran en la carpeta [Docs](../Docs)
 
@@ -73,7 +75,7 @@ Para realizar el proceso de configuración del motor se requiere tener disponibl
 
 - **Encoder externo** (X6): Los que se encuentran en el laboratorio son AMT.  
   - Introducir el número de pulsos según el encoder AMT.  
-  - Usar **AMT Viewpoint** para obtener la cantidad de pulsos de cada uno de los encoder. Para ello es necesario usar un conversor USB a UART. 
+  - Usar **AMT Viewpoint** para obtener la cantidad de pulsos de cada uno de los encoder. Para ello es necesario usar un conversor USB a UART para conectar los encoder al PC. 
   - Dirección: **Inverted**.  
 
 #### **3. Controller / Communication**  
@@ -81,14 +83,14 @@ Para realizar el proceso de configuración del motor se requiere tener disponibl
   <img src="src/Motor3.png" alt="Startup" width="500"/>
 </p>
 
-- Seleccionar sensores a usar: solo Hall o Hall + Incremental (recomendado).  
+- Seleccionar los sensores a usar: solo Hall o Hall + Incremental (recomendado).  
 
 #### **4. Controller / Regulation**  
 <p align="center">
   <img src="src/Motor4.png" alt="Startup" width="500"/>
 </p>
 
-- Seleccionar el tipo de control: **Corriente**, **Velocidad** o **Posición**.  
+- Seleccionar el tipo de control: **Corriente**, **Velocidad** o **Posición**. Por lo general se deja por defecto. 
 
 
 #### **5. Controller / Limits**  
@@ -101,10 +103,9 @@ Para realizar el proceso de configuración del motor se requiere tener disponibl
 - **Max profile velocity** → Velocidad máxima según *datasheet* (limitada por número de polos).  
 - **Following error window** → Según tolerancia de la aplicación.  
 
----
-
 ✅ **Finalizar** el asistente y guardar configuración.  
 
+---
 ### 🛠️ Proceso de sintonización
 #### **1. Sintonización en Wizard → Regulation Tuning**  
 <p align="center">
