@@ -107,7 +107,7 @@ Esto se resolverá en la siguiente sección de configuración del controlador.
 ### 🛠️ Proceso de sintonización
 #### **1. Sintonización en Wizard → Regulation Tuning**  
 <p align="center">
-  <img src="src/sintonizacion.png" alt="Startup" width="500"/>
+  <img src="src/sintonizacion.png" alt="Startup" width="600"/>
 </p>
 
 Existen tres formas de sintonizar el controlador: 
