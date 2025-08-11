@@ -39,6 +39,7 @@ Control de los EPOS4 mediante **red CAN**, usando la librería oficial de Maxon 
 4. Ejecutar el script de instalación:
    ```bash
    sudo bash ./install.sh
+    ```
 
    <p align="center">
      <img src="src/instalar.png" alt="Descarga Librería" width="400"/>
