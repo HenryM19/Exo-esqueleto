@@ -16,21 +16,20 @@
    ⚠️ **Precaución**: Conectar mal estos puertos puede provocar un **cortocircuito**.  
 
 <p align="center">
-  <img src="src/conectores.png" alt="Conexión motor" width="300"/>
+  <img src="src/conectores.png" alt="Conexión motor" width="600"/>
 </p>
-
 
 5. **Fuente de 5V**: Necesaria para desbloquear el movimiento del sistema. *(Pendiente especificar el mecanismo exacto que se desbloquea)*.  
 
+6. **Encendido y diagnóstico por LED**: Si está todo conectado correctamente relacionado con las fuentes de energía, ser podrá entonces visualizar el diodo led del EPOS4 de color: 
 
-
-6. **Encendido y diagnóstico por LED**:  
    - **Verde** ✅ → Funcionamiento correcto (generalmente después de la sintonización).  
    - **Rojo** ❌ → Error en configuración o incompatibilidad entre motor y parámetros del EPOS4.  
 
+Esto se resolverá en la siguiente sección de configuración del controlador. 
+
 7. **Conectar el EPOS4 al PC** mediante cable **Micro-USB**.  
 
----
 
 ## ⚙️ Configuración del Controlador
 
@@ -39,11 +38,16 @@
 2. **Crear un nuevo proyecto** y seleccionar el modelo **EPOS4**.  
 
 3. En el apartado **Communication**, hacer clic derecho y seleccionar **Connect**.  
-   ![Conexión en EPOS Studio](docs/images/epos_studio_connect.jpg)  
+
+<p align="center">
+  <img src="src/connect.png" alt="Conectar" width="600"/>
+</p>
 
 4. Ir a **Wizards → Startup** para realizar el proceso de configuración, donde se definen las características del motor que controlará el EPOS4.  
 
----
+<p align="center">
+  <img src="src/startup.png" alt="Startup" width="600"/>
+</p>
 
 ### 🛠️ Proceso de Configuración del Motor
 
