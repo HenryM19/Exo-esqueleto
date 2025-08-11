@@ -70,9 +70,9 @@ Esto se resolverá en la siguiente sección de configuración del controlador.
 - **Encoder interno** (X5):  
   - Tipo: *Digital incremental encoder 1*.  
 
-- **Encoder externo** (X6):  
+- **Encoder externo** (X6): Los que se encuentran en el laboratorio son AMT.  
   - Introducir el número de pulsos según el encoder AMT.  
-  - Usar **AMT Viewpoint** para obtener la cantidad de pulsos.  
+  - Usar **AMT Viewpoint** para obtener la cantidad de pulsos de cada uno de los encoder. Para ello es necesario usar un conversor USB a UART. 
   - Dirección: **Inverted**.  
 
 #### **3. Controller / Communication**  
@@ -103,3 +103,17 @@ Esto se resolverá en la siguiente sección de configuración del controlador.
 ---
 
 ✅ **Finalizar** el asistente y guardar configuración.  
+
+### 🛠️ Proceso de sintonización
+#### **1. Sintonización en Wizard → Regulation Tuning**  
+<p align="center">
+  <img src="src/Motor1.png" alt="Startup" width="500"/>
+</p>
+
+Existen tres formas de sintonizar el controlador: 
+
+- **Electrical Loop → Current**: 
+- **Main Loop → Velocity**     : 
+- **Main Loop → Position**     : 
+
+
