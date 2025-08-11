@@ -30,10 +30,7 @@ Control de los EPOS4 mediante **red CAN**, usando la librería oficial de Maxon 
 ### 📦 Instalación de la librería en Linux
 1. Descargar la librería oficial desde:  
    [EPOS4 50/8 - Página de producto Maxon](https://www.maxongroup.com/maxon/view/product/control/Positionierung/EPOS-4/504384)  
-   En la sección **Descargas**, buscar el archivo mostrado en la imagen:  
-   <p align="center">
-     <img src="src/instalar.png" alt="Descarga Librería" width="400"/>
-   </p>
+   En la sección **Descargas**, buscar el archivo **EPOS-Linux-Library**.
 
 2. Descomprimir el archivo `.zip`.
 
@@ -42,3 +39,7 @@ Control de los EPOS4 mediante **red CAN**, usando la librería oficial de Maxon 
 4. Ejecutar el script de instalación:
    ```bash
    sudo bash ./install.sh
+
+   <p align="center">
+     <img src="src/instalar.png" alt="Descarga Librería" width="400"/>
+   </p>
