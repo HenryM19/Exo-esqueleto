@@ -6,22 +6,23 @@
 
 2. **Conectar el motor** que se desea configurar a la placa de conexión en el puerto **MOLEX 4** al conector correspondiente.  
 
-<p align="center">
-  <img src="src/molex4.png" alt="Conexión motor" width="300"/>
-</p>
-
 3. **Conectar el encoder** (interno o externo) este permite conocer la ubicación del motor:
     - **Encoder interno** y **Encoder externo incremental** se conectan en puertos distintos, como se muestra en la siguiente figura.
-     ![Puerto encoder](docs/images/encoder_interno.jpg)  
 
 4. **Conectar el cable de alimentación**: La placa de conexión cuenta con dos puertos de conexión.   
    - El EPOS4 cuenta con **dos puertos de alimentación**:  
      - **Entrada**: Desde la fuente de alimentación.  
      - **Salida**: Permite alimentar en serie otro EPOS4.  
    ⚠️ **Precaución**: Conectar mal estos puertos puede provocar un **cortocircuito**.  
-   ![Conexión alimentación](docs/images/conexion_alimentacion.jpg)  
+
+<p align="center">
+  <img src="src/conectores.png" alt="Conexión motor" width="300"/>
+</p>
+
 
 5. **Fuente de 5V**: Necesaria para desbloquear el movimiento del sistema. *(Pendiente especificar el mecanismo exacto que se desbloquea)*.  
+
+
 
 6. **Encendido y diagnóstico por LED**:  
    - **Verde** ✅ → Funcionamiento correcto (generalmente después de la sintonización).  
