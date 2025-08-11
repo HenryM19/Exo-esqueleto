@@ -50,6 +50,7 @@ Esto se resolverá en la siguiente sección de configuración del controlador.
 </p>
 
 ### 🛠️ Proceso de Configuración del Motor
+Para realizar el proceso de configuración del motor se requiere tener disponible el datasheet del respectivo motor. Los datasheet de los motores usados en esta aplicación  se encuentran en la carpeta [Docs](./Docs)
 
 #### **1. Drive System / Motor**  
 <p align="center">
@@ -66,7 +67,7 @@ Esto se resolverá en la siguiente sección de configuración del controlador.
   <img src="src/Motor2.png" alt="Startup" width="500"/>
 </p>
 
-- **X4**: Sensores Hall.  
+- **Sensores Hall X4**: Sensores Hall.  
 - **Encoder interno** (X5):  
   - Tipo: *Digital incremental encoder 1*.  
 
