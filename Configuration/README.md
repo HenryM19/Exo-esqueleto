@@ -8,12 +8,12 @@
 2. **Conectar el motor** que se desea configurar a la placa de conexión en el puerto **MOLEX 4** al conector correspondiente.  
 
 3. **Conectar el encoder** (interno o externo) este permite conocer la ubicación del motor:
-    - **Encoder interno** y **Encoder externo incremental** se conectan en puertos distintos, como se muestra en la siguiente figura.
+    - **Encoder interno** y **Encoder externo incremental** se conectan en puertos distintos.
 
 4. **Conectar el cable de alimentación**: La placa de conexión cuenta con dos puertos de conexión.   
    - El EPOS4 cuenta con **dos puertos de alimentación**:  
-     - **Entrada**: Desde la fuente de alimentación.  
-     - **Salida**: Permite alimentar en serie otro EPOS4.  
+     - **Entrada**: Desde la fuente de alimentación en el **MOLEX 1**.  
+     - **Salida**: Permite alimentar en serie otro EPOS4, corresponde al **MOLEX 2**.  
    ⚠️ **Precaución**: Conectar mal estos puertos puede provocar un **cortocircuito**.  
 
 <p align="center">
@@ -108,18 +108,17 @@ Para realizar el proceso de configuración del motor se requiere tener disponibl
 ---
 ### 🛠️ Proceso de sintonización
 
-El proceso de sintonización se realiza para que se configure correctamente el EPOS4 para controlar el motor que se ha configurado previamente. 
+La **sintonización** es el procedimiento mediante el cual se ajustan los parámetros internos del **EPOS4** para que controle el motor de forma óptima según sus características y la carga que moverá.
 
-Para ello, es necesario colocar el motor ya en la ubicación en donde operará, de esta forma el controlador se sintonizará correctammente considerando la carga del motor.
-
-Una vez realizado el proceso de sintonización con la carga del motor, ya no es necesario volver a sintonizarlo, a menos que se modifique la ubicación del motor. 
+Es recomendable realizar este proceso **con el motor instalado en su ubicación final**, ya que así el controlador ajustará sus parámetros considerando la carga real.  
+Una vez sintonizado con la carga definitiva, **no será necesario repetir la sintonización** a menos que cambie la ubicación del motor o las condiciones de carga.
 
 #### **1. Sintonización en Wizard → Regulation Tuning**  
 <p align="center">
   <img src="src/sintonizacion.png" alt="Startup" width="600"/>
 </p>
 
-Existen tres formas de sintonizar el controlador: 
+El EPOS4 ofrece tres bucles principales de sintonización:
 
 - **Electrical Loop → Current**: 
 - **Main Loop → Velocity**     : 
