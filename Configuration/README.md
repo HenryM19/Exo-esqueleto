@@ -6,7 +6,9 @@
 
 2. **Conectar el motor** que se desea configurar a la placa de conexión en el puerto **MOLEX 4** al conector correspondiente.  
 
-    ![Conexión motor](src/molex4.png)  
+<p align="center">
+  <img src="src/molex4.png" alt="Conexión motor" width="300"/>
+</p>
 
 3. **Conectar el encoder** (interno o externo) este permite conocer la ubicación del motor:
     - **Encoder interno** y **Encoder externo incremental** se conectan en puertos distintos, como se muestra en la siguiente figura.
