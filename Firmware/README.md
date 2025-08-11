@@ -32,7 +32,7 @@ Control de los EPOS4 mediante **red CAN**, usando la librería oficial de Maxon 
    [EPOS4 50/8 - Página de producto Maxon](https://www.maxongroup.com/maxon/view/product/control/Positionierung/EPOS-4/504384)  
    En la sección **Descargas**, buscar el archivo mostrado en la imagen:  
    <p align="center">
-     <img src="src/startup.png" alt="Descarga Librería" width="400"/>
+     <img src="src/instalar.png" alt="Descarga Librería" width="400"/>
    </p>
 
 2. Descomprimir el archivo `.zip`.
