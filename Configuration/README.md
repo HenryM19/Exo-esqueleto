@@ -20,9 +20,7 @@
   <img src="src/conectores.png" alt="Conexión motor" width="600"/>
 </p>
 
-5. **Fuente de 5V**: 
-
-La fuente de 5 V se utiliza exclusivamente para alimentar las entradas **STO** del EPOS4.  
+5. **Fuente de 5V**: La fuente de 5 V se utiliza exclusivamente para alimentar las entradas **STO** del EPOS4.  
 El STO es un sistema de seguridad que impide que el motor genere torque si no recibe esta tensión.  
 Sin los 5 V presentes en ambas entradas STO, el EPOS4 mostrará el error **0x8A88** y no habilitará la etapa de potencia.
 
