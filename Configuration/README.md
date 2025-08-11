@@ -52,12 +52,20 @@ Esto se resolverá en la siguiente sección de configuración del controlador.
 ### 🛠️ Proceso de Configuración del Motor
 
 #### **1. Drive System / Motor**  
+<p align="center">
+  <img src="src/Motor1.png" alt="Startup" width="400"/>
+</p>
+
 - **Nominal current** → Corriente nominal del motor.  
 - **Thermal time constant winding**  
 - **Max speed** → Según *datasheet*.  
 - **Number of pole pairs**  
 
 #### **2. Drive System / Sensors**  
+<p align="center">
+  <img src="src/Motor2.png" alt="Startup" width="400"/>
+</p>
+
 - **X4**: Sensores Hall.  
 - **Encoder interno** (X5):  
   - Tipo: *Digital incremental encoder 1*.  
@@ -71,16 +79,28 @@ Esto se resolverá en la siguiente sección de configuración del controlador.
     ![Config encoder externo](docs/images/config_encoder_externo.jpg)  
 
 #### **3. Controller / Communication**  
+<p align="center">
+  <img src="src/Motor3.png" alt="Startup" width="400"/>
+</p>
+
 - Seleccionar sensores a usar: solo Hall o Hall + Incremental (recomendado).  
 - Configuración como en la figura:  
   ![Config comunicación](docs/images/config_communication.jpg)  
 
 #### **4. Controller / Regulation**  
+<p align="center">
+  <img src="src/Motor4.png" alt="Startup" width="400"/>
+</p>
+
 - Seleccionar el tipo de control: **Corriente**, **Velocidad** o **Posición**.  
 - Figura de ejemplo:  
   ![Config regulación](docs/images/config_regulation.jpg)  
 
 #### **5. Controller / Limits**  
+<p align="center">
+  <img src="src/Motor5.png" alt="Startup" width="400"/>
+</p>
+
 - **Max output current** → Corriente nominal × 3  
 - **Max acceleration** → Según requerimientos mecánicos.  
 - **Max profile velocity** → Velocidad máxima según *datasheet* (limitada por número de polos).  
