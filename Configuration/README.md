@@ -107,6 +107,13 @@ Para realizar el proceso de configuración del motor se requiere tener disponibl
 
 ---
 ### 🛠️ Proceso de sintonización
+
+El proceso de sintonización se realiza para que se configure correctamente el EPOS4 para controlar el motor que se ha configurado previamente. 
+
+Para ello, es necesario colocar el motor ya en la ubicación en donde operará, de esta forma el controlador se sintonizará correctammente considerando la carga del motor.
+
+Una vez realizado el proceso de sintonización con la carga del motor, ya no es necesario volver a sintonizarlo, a menos que se modifique la ubicación del motor. 
+
 #### **1. Sintonización en Wizard → Regulation Tuning**  
 <p align="center">
   <img src="src/sintonizacion.png" alt="Startup" width="600"/>
