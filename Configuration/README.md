@@ -40,13 +40,13 @@ Esto se resolverá en la siguiente sección de configuración del controlador.
 3. En el apartado **Communication**, hacer clic derecho y seleccionar **Connect**.  
 
 <p align="center">
-  <img src="src/connect.png" alt="Conectar" width="600"/>
+  <img src="src/connect.png" alt="Conectar" width="400"/>
 </p>
 
 4. Ir a **Wizards → Startup** para realizar el proceso de configuración, donde se definen las características del motor que controlará el EPOS4.  
 
 <p align="center">
-  <img src="src/startup.png" alt="Startup" width="600"/>
+  <img src="src/startup.png" alt="Startup" width="400"/>
 </p>
 
 ### 🛠️ Proceso de Configuración del Motor
