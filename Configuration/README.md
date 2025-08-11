@@ -20,7 +20,13 @@
   <img src="src/conectores.png" alt="Conexión motor" width="600"/>
 </p>
 
-5. **Fuente de 5V**: Necesaria para desbloquear el movimiento del sistema. *(Pendiente especificar el mecanismo exacto que se desbloquea)*.  
+5. **Fuente de 5V**: 
+
+La fuente de 5 V se utiliza exclusivamente para alimentar las entradas **STO** del EPOS4.  
+El STO es un sistema de seguridad que impide que el motor genere torque si no recibe esta tensión.  
+Sin los 5 V presentes en ambas entradas STO, el EPOS4 mostrará el error **0x8A88** y no habilitará la etapa de potencia.
+
+- Nota importante: Aunque el STO previene que el motor genere torque, **no corta completamente el suministro eléctrico ni proporciona aislamiento seguro**. En aplicaciones donde se requiere un nivel de seguridad certificado (por ejemplo, ISO 13849 PLd o superior), se deben considerar soluciones adicionales como contactores de corte de potencia.
 
 6. **Encendido y diagnóstico por LED**: Si está todo conectado correctamente relacionado con las fuentes de energía, ser podrá entonces visualizar el diodo led del EPOS4 de color: 
 
