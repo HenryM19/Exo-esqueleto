@@ -53,7 +53,7 @@ Esto se resolverá en la siguiente sección de configuración del controlador.
 
 #### **1. Drive System / Motor**  
 <p align="center">
-  <img src="src/Motor1.png" alt="Startup" width="400"/>
+  <img src="src/Motor1.png" alt="Startup" width="500"/>
 </p>
 
 - **Nominal current** → Corriente nominal del motor.  
@@ -63,42 +63,36 @@ Esto se resolverá en la siguiente sección de configuración del controlador.
 
 #### **2. Drive System / Sensors**  
 <p align="center">
-  <img src="src/Motor2.png" alt="Startup" width="400"/>
+  <img src="src/Motor2.png" alt="Startup" width="500"/>
 </p>
 
 - **X4**: Sensores Hall.  
 - **Encoder interno** (X5):  
   - Tipo: *Digital incremental encoder 1*.  
-  - Configurar como en la figura:  
-    ![Config encoder interno](docs/images/config_encoder_interno.jpg)  
+
 - **Encoder externo** (X6):  
   - Introducir el número de pulsos según el encoder AMT.  
   - Usar **AMT Viewpoint** para obtener la cantidad de pulsos.  
   - Dirección: **Inverted**.  
-  - Configurar como en la figura:  
-    ![Config encoder externo](docs/images/config_encoder_externo.jpg)  
 
 #### **3. Controller / Communication**  
 <p align="center">
-  <img src="src/Motor3.png" alt="Startup" width="400"/>
+  <img src="src/Motor3.png" alt="Startup" width="500"/>
 </p>
 
 - Seleccionar sensores a usar: solo Hall o Hall + Incremental (recomendado).  
-- Configuración como en la figura:  
-  ![Config comunicación](docs/images/config_communication.jpg)  
 
 #### **4. Controller / Regulation**  
 <p align="center">
-  <img src="src/Motor4.png" alt="Startup" width="400"/>
+  <img src="src/Motor4.png" alt="Startup" width="500"/>
 </p>
 
 - Seleccionar el tipo de control: **Corriente**, **Velocidad** o **Posición**.  
-- Figura de ejemplo:  
-  ![Config regulación](docs/images/config_regulation.jpg)  
+
 
 #### **5. Controller / Limits**  
 <p align="center">
-  <img src="src/Motor5.png" alt="Startup" width="400"/>
+  <img src="src/Motor5.png" alt="Startup" width="500"/>
 </p>
 
 - **Max output current** → Corriente nominal × 3  
