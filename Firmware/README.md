@@ -45,7 +45,8 @@ Control directo de un **único módulo EPOS4** a través de **USB**, usando **Vi
 
 ### 📟[`Programas Windows`](../Firmware/windows_programs/)  
 
-- **Proyecto en Visual Studio**
+- **motor_maxon_test2.rar**
+
   Se conecta a un EPOS4 mediante interfaz USB. 
 
 ---
