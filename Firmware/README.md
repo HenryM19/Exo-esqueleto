@@ -41,6 +41,13 @@ Control directo de un **único módulo EPOS4** a través de **USB**, usando **Vi
      - En **Entrada / Dependencias adicionales**, agregar los archivos `EposCmd.lib` y `EposCmd64.lib`, separados por punto y coma (`;`).
 
    - Copiar los archivos `EposCmd.lib` y `EposCmd64.lib` en la carpeta `x64/Debug`.
+
+
+#### Programas 
+
+- **Proyecto en Visual Studio**
+  Se conecta a un EPOS4 mediante interfaz USB. 
+
 ---
 
 ## 🐧 Ubuntu / Linux 
@@ -52,7 +59,6 @@ Control de los EPOS4 mediante **red CAN**, usando la librería oficial de Maxon 
 - **PC con Ubuntu** + adaptador USB a CAN (ej. USB2CAN de Innomaker).
 - **Raspberry Pi** + módulo MCP2515 (requiere adaptación de niveles de voltaje para SPI-CAN).
 
----
 
 ### 📦 Instalación de la librería en Linux
 1. Descargar la librería oficial desde:  
@@ -76,12 +82,6 @@ Control de los EPOS4 mediante **red CAN**, usando la librería oficial de Maxon 
 ## Programas Linux  
 
 En cuestión se ha desarrollado algunos programas hasta el momento para el manejo de los motores, ubicados en la carpeta programs, entre ellos se encuentran: 
-
-
-#### Windows
-
-- **Proyecto en Visual Studio**
-  Se conecta a un EPOS4 mediante interfaz 4. 
 
 #### Linux
 
