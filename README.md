@@ -1,6 +1,7 @@
 # 🤖 Exoesqueleto Robótico - Proyecto
 
-Bienvenido al repositorio del exoesqueleto robótico en desarrollo, que incluye hardware, firmware y configuraciones para el control de motores Maxon EPOS4.
+Bienvenido al repositorio dedicado al desarrollo del exoesqueleto robótico, que incluye documentación detallada sobre el hardware, firmware y configuraciones necesarias para el control de motores Maxon EPOS4.
+
 
 ---
 
