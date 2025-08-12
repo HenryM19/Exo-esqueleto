@@ -1,4 +1,4 @@
-# 🤖 Exoesqueleto Robótico - Proyecto
+# 🤖 Exoesqueleto de extremidades inferiores
 
 Bienvenido, este repositorio está dedicado al desarrollo de un exoesqueleto de extremidades inferiores, que incluye documentación detallada sobre el hardware, firmware y configuraciones necesarias para el control de motores Maxon EPOS4.
 
