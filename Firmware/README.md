@@ -7,7 +7,7 @@ En esta sección se presenta el firmware para manejar el exoesqueleto mediante *
 ## 🪟 Windows  
 Control directo de un **único módulo EPOS4** a través de **USB**, usando **Visual Studio** y las librerías proporcionadas por Maxon.  
 
-📂 **Ubicación de librerías:** [`Drivers`](../Firmware/windows_programs/)  
+📂 **Ubicación de librerías:** [`Librería`](../Firmware/Libraries/)  
 
 **Características:**
 - Control individual de un EPOS4.
@@ -79,15 +79,20 @@ Control de los EPOS4 mediante **red CAN**, usando la librería oficial de Maxon 
    </p>
 
 
-### 📟 [`Programas Linux`](../Firmware/linux_programs/) 
+### 📟 [`Programas Linux`](../Firmware/linux_programs/)
 
-En cuestión se ha desarrollado algunos programas hasta el momento para el manejo de los motores, ubicados en la carpeta programs, entre ellos se encuentran: 
+En esta carpeta se encuentran varios programas desarrollados para el manejo de los motores mediante red CAN. Los principales archivos son:
 
 - **listar_interfaces.cpp**  
-  Detecta las interfaces CAN disponibles y muestra los nombres compatibles con la librería EPOS.  
+  Detecta las interfaces CAN disponibles y muestra los nombres compatibles con la librería EPOS.
 
 - **control_manual_CAN.cpp**  
-  Permite conectarse a un motor mediante la red CAN. 
+  Permite conectarse y controlar un motor EPOS4 a través de la red CAN de forma manual.
 
 - **menu_control_OneMotor.cpp**  
-  Permite controlar un EPOS4 a la vez mediante una red CAN, permite seleccionar el nodo del EPOS4 que se desea controlar. Luego se abre un menú que permite configurar la posición actual como la posición cero. otra opción permite mover el motor +- 5 grados, esta es para calibrar la posición 0, mientras que otra opción permite manejar a +-30 grados el motor (Considerando el engranaje).
+  Controla un solo EPOS4 mediante red CAN.  
+  Funcionalidades principales:
+  - Selección del nodo EPOS4 a controlar.
+  - Menú para configurar la posición actual como posición cero.
+  - Movimiento incremental del motor en ±5° para calibrar la posición cero.
+  - Movimiento en un rango mayor de ±30°, considerando el engranaje, para pruebas y ajustes.
