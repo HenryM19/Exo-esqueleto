@@ -7,7 +7,7 @@ En esta sección se presenta el firmware para manejar el exoesqueleto mediante *
 ## 🪟 Windows  
 Control directo de un **único módulo EPOS4** a través de **USB**, usando **Visual Studio** y las librerías proporcionadas por Maxon.  
 
-📂 **Ubicación de librerías:** [`Drivers`](../Drivers)  
+📂 **Ubicación de librerías:** [`Drivers`](../Firmware/windows_programs/)  
 
 **Características:**
 - Control individual de un EPOS4.
@@ -40,10 +40,10 @@ Control directo de un **único módulo EPOS4** a través de **USB**, usando **Vi
 
      - En **Entrada / Dependencias adicionales**, agregar los archivos `EposCmd.lib` y `EposCmd64.lib`, separados por punto y coma (`;`).
 
-   - Copiar los archivos `EposCmd.lib` y `EposCmd64.lib` en la carpeta `x64/Debug`.
+   - Copiar los archivos `EposCmd.dll` y `EposCmd64.dll` en la carpeta `x64/Debug`.
 
 
-### 📟Programas Windows
+### 📟[`Programas Windows`](../Firmware/windows_programs/)  
 
 - **Proyecto en Visual Studio**
   Se conecta a un EPOS4 mediante interfaz USB. 
@@ -79,7 +79,7 @@ Control de los EPOS4 mediante **red CAN**, usando la librería oficial de Maxon 
    </p>
 
 
-### 📟 Programas Linux  
+### 📟 [`Programas Linux`](../Firmware/linux_programs/) 
 
 En cuestión se ha desarrollado algunos programas hasta el momento para el manejo de los motores, ubicados en la carpeta programs, entre ellos se encuentran: 
 
