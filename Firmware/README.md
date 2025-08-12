@@ -2,6 +2,12 @@
 
 En esta sección se presenta el firmware para manejar el exoesqueleto mediante **USB** y **CAN**, compatible con controladores **EPOS4** de Maxon.  
 
+Instalar: 
+
+- EPOS Studio
+- AMT Viewpoint
+- Visual Studio
+
 ---
 
 ## 🪟 Windows  
