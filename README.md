@@ -32,3 +32,9 @@ Bienvenido, este repositorio está dedicado al desarrollo de un exoesqueleto de 
 ## 📬 Contacto
 
 Para preguntas o colaboraciones, contacta a **henrrydavidmaldonado@outlook.com**.
+
+
+## Referencias
+Este trabajo toma como referencia la tesis:  
+[1] Blandín Segarra, J. M., & Velasco Gordillo, A. J. (2019). *Diseño e implementación del sistema de instrumentación y comunicaciones de un exoesqueleto de extremidades inferiores* (Tesis de pregrado). Universidad de Cuenca.  
+[Repositorio Institucional - Universidad de Cuenca](http://dspace.ucuenca.edu.ec/handle/123456789/32409)
