@@ -44,3 +44,23 @@ Control de los EPOS4 mediante **red CAN**, usando la librería oficial de Maxon 
    <p align="center">
      <img src="src/instalar.png" alt="Descarga Librería" width="400"/>
    </p>
+
+
+## Programas Linux  
+
+En cuestión se ha desarrollado algunos programas hasta el momento para el manejo de los motores, ubicados en la carpeta programs, entre ellos se encuentran: 
+
+
+#### Windows
+
+
+#### Linux
+
+- **listar_interfaces.cpp**  
+  Detecta las interfaces CAN disponibles y muestra los nombres compatibles con la librería EPOS.  
+
+- **control_manual_CAN.cpp**  
+  Permite conectarse a un motor mediante la red CAN. 
+
+- **menu_control_OneMotor.cpp**  
+  Permite controlar un EPOS4 a la vez mediante una red CAN, permite seleccionar el nodo del EPOS4 que se desea controlar. Luego se abre un menú que permite configurar la posición actual como la posición cero. otra opción permite mover el motor +- 5 grados, esta es para calibrar la posición 0, mientras que otra opción permite manejar a +-30 grados el motor (Considerando el engranaje).
