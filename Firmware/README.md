@@ -14,6 +14,33 @@ Control directo de un **único módulo EPOS4** a través de **USB**, usando **Vi
 - Comunicación directa USB.
 - Útil para pruebas de banco o calibración de un solo motor.
 
+### Instalación de librerías en Visual Studio
+
+1. Abrir Visual Studio.
+
+2. Crear un nuevo proyecto tipo **Aplicación de consola en C++** y seleccionar la ubicación donde se almacenará el proyecto.
+
+3. El código por defecto muestra un "Hello world", eliminar este contenido.
+
+4. Configurar las librerías:
+
+   - Copiar la carpeta `Definitions` en la carpeta del proyecto donde se encuentre el archivo `.cpp` actual.
+
+   - Abrir el proyecto en Visual Studio.
+
+   - Abrir el explorador de soluciones, dar clic derecho sobre el archivo `.cpp` del proyecto y seleccionar **Propiedades** → **Propiedades de configuración**.
+
+   - En la opción **Directorios de VC++**:
+
+     - En **Directorios de inclusión públicos** y **Directorios de archivos de bibliotecas**, agregar la ruta donde se encuentra la carpeta `Definitions`.
+
+   - En la opción **Vinculador**:
+
+     - En **General / Directorios de bibliotecas adicionales**, agregar la ruta de la carpeta `Definitions`.
+
+     - En **Entrada / Dependencias adicionales**, agregar los archivos `EposCmd.lib` y `EposCmd64.lib`, separados por punto y coma (`;`).
+
+   - Copiar los archivos `EposCmd.lib` y `EposCmd64.lib` en la carpeta `x64/Debug`.
 ---
 
 ## 🐧 Ubuntu / Linux 
@@ -53,6 +80,8 @@ En cuestión se ha desarrollado algunos programas hasta el momento para el manej
 
 #### Windows
 
+- **Proyecto en Visual Studio**
+  Se conecta a un EPOS4 mediante interfaz 4. 
 
 #### Linux
 
