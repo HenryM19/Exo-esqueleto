@@ -28,7 +28,9 @@ El sistema está compuesto por diversos elementos mecánicos y electrónicos que
 - **Extras:** Se incluye un **pinout detallado** para facilitar la comprensión del funcionamiento.  
 - **Documentación:** Archivos y esquemas en [`Docs/`](../Docs).  
 
-![Placa de Conexión](docs/images/placa_conexion.jpg)  
+<p align="center">
+  <img src="../Docs/pinout.png" alt="Startup" width="400"/>
+</p> 
 
 ---
 
