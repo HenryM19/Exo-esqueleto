@@ -7,7 +7,7 @@ En esta sección se presenta el firmware para manejar el exoesqueleto mediante *
 ## 🪟 Windows  
 Control directo de un **único módulo EPOS4** a través de **USB**, usando **Visual Studio** y las librerías proporcionadas por Maxon.  
 
-📂 **Ubicación de librerías:** [`Librería`](../Firmware/Libraries/)  
+📂 **Ubicación de librerías:** [`Librería`](../Firmware/windows_programs/Libraries/)  
 
 **Características:**
 - Control individual de un EPOS4.
